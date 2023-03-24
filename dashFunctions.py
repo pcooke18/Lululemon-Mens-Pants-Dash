@@ -1,21 +1,8 @@
-from dash import Dash
-from dash import dcc
-from dash import html
-from dash.dependencies import Input, Output
 import collections
-from PIL import Image
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import dash
-import numpy as np
-import matplotlib.pyplot as plt
 from datetime import datetime
-import dash_bootstrap_components as dbc
-import plotly.express as px
 import pandas as pd
 import re
-import base64
-import io
 
 
 def add_data():

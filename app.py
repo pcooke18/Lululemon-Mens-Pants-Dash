@@ -21,7 +21,8 @@ data = add_data()
 
 multi_select = {
     'Product Family': ['Other', 'ABC', 'Pull-On', 'Commission', 'Unspecified Jogger', 'License to Train', 'Surge', 'City Sweat', 'Running', 'Lab', 'Hiking', 'New Venture', 'Balancer', 'Discipline'],
-    'Product Design': ['On the Move', 'Golf', 'Training', 'Running', 'Yoga', 'Hiking', 'Running and Training']
+    'Product Design': ['On the Move', 'Golf', 'Training', 'Running', 'Yoga', 'Hiking', 'Running and Training'],
+    'Product Fabric': ['Other', 'Warpstreme Fabric', 'Utilitech Fabric', 'Stretch Fabric', 'Swift Fabric', 'Quick-Drying Fabric', 'Fleece Fabric', 'Terry Fabric', 'SenseKnit Technology', 'WovenAir Fabric', 'Luxtreme Fabric', 'Water-Repellent Fabric', 'Wool-Blend Fabric', 'Everlux Fabric', 'Nulux Fabric']
 }
 
 external_style = ['/bootstrap.css']
@@ -141,7 +142,8 @@ app.layout = html.Div(
                                 dcc.Dropdown(
                                     options=[
                                         {'label': 'Product Family', 'value': 'Product Family'},
-                                        {'label': 'Product Design', 'value': 'Product Design'}
+                                        {'label': 'Product Design', 'value': 'Product Design'},
+                                        {'label': 'Product Fabric', 'value': 'Product Fabric'}
                                     ],
                                     id='category-select',
                                     value='Product Family',

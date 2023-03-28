@@ -9,7 +9,7 @@ def add_data():
     reviews = pd.read_csv('/Users/piersoncooke/GitHub Practice Repos/lululemon-scrape/Data/reviews_tokenized3.csv', index_col=False, parse_dates=['Date of Review'])
     reviews['Review Text Token'] = [re.sub(r'[^A-Za-z\s]', '', x).split() for x in reviews['Review Text Token']]
 
-    products = pd.read_csv('/Users/piersoncooke/GitHub Practice Repos/lululemon-scrape/Data/all_products_updated3.csv', index_col = False)
+    products = pd.read_csv('/Users/piersoncooke/GitHub Practice Repos/lululemon-scrape/Data/all_products_updated4.csv', index_col = False)
     products = products[['Product_ID', 'Product Family', 'Product Design', 'Product Fabric']]
 
     data = pd.merge(reviews, products, left_on = 'Product ID', right_on = 'Product_ID', suffixes=('', '_y'))

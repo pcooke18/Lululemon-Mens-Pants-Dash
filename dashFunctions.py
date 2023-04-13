@@ -6,7 +6,7 @@ import re
 
 
 def add_data():
-    reviews = pd.read_csv('/Users/piersoncooke/GitHub Practice Repos/lululemon-scrape/Lululemon-Mens-Pants-Dash/reviews.csv', index_col=False, parse_dates=['Date of Review'])
+    reviews = pd.read_csv('reviews.csv', index_col=False, parse_dates=['Date of Review'])
     reviews['Review Text Token'] = [re.sub(r'[^A-Za-z\s]', '', x).split() for x in reviews['Review Text Token']]
 
     products = pd.read_csv('/Users/piersoncooke/GitHub Practice Repos/lululemon-scrape/Data/all_products_updated4.csv', index_col = False)

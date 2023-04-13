@@ -28,6 +28,7 @@ multi_select = {
 external_style = ['/bootstrap.css']
 
 app = Dash(__name__, external_stylesheets=external_style)
+server = app.server
 
 app.layout = html.Div(
     [
@@ -203,7 +204,7 @@ app.layout = html.Div(
 
                         html.P(
                             children='The word clouds below show the most common words and phrases that appear within the text of reviews. \
-                            The cloud on the left shows the most common words in reviews with ratings less than 3 starts while the cloud on the right shows the most common words in reviews with more than 3 stars. \
+                            The first word cloud shows the most common words in reviews with ratings less than 3 starts while the second cloud shows the most common words in reviews with more than 3 stars. \
                             Toggle between options to better understand strengths and areas of improvement for each product group.',
                             style={
                                 'textAlign': 'left',

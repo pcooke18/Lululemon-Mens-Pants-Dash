@@ -274,7 +274,12 @@ app.layout = html.Div(
                             [
                                 html.Label('Please select number of phrases to display:'),
                                 html.Br(),
-                                dcc.Slider(10, 25, 1, id = 'ngram-count', value=10)
+                                dcc.Slider(
+                                    min = 10, 
+                                    max = 25, 
+                                    step = 1,
+                                    value = 10,
+                                    id = 'ngram-count')
                             ],
                             width={'size': 4, 'offset': 1}
                         ), 

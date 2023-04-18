@@ -8,7 +8,7 @@ As a former Educator (Sales Associate) at Lululemon, I've spent a lot of time ge
 
 ## Getting Started
 
-To interact with the dashboard, please click [here](https://lululemon-mens-pants-dash.onrender.com/). Please note it may take a couple minutes for this page and data to load.
+Click [here](https://lululemon-mens-pants-dash.onrender.com/) to interact with the dashboard. Please note it may take a couple minutes for this page and data to load.
 
 ## Layout and Instructions
 

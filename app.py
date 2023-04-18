@@ -102,7 +102,7 @@ app.layout = html.Div(
                         ]
                     )
             ],
-            style={'text-align': 'center'}
+            style={'textAlign': 'center'}
         ),
         
         html.Br(),
@@ -184,7 +184,7 @@ app.layout = html.Div(
                     ]
                 )
             ],
-            style={'text-align': 'center'}
+            style={'textAlign': 'center'}
         ), 
 
         html.Br(),
@@ -304,10 +304,10 @@ app.layout = html.Div(
                             ]
                         )
                     ],
-                    style={'text-align': 'center'}
+                    style={'textAlign': 'center'}
                 )
             ],
-            style={'text-align': 'center'}
+            style={'textAlign': 'center'}
         ), 
 
         html.Br()

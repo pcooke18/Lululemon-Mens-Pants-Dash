@@ -221,7 +221,7 @@ app.layout = html.Div(
                                 html.Label('Please select one of the following inputs:'),
                                 html.Br(),
                                 dcc.RadioItems(
-                                    list(multi_select.keys()),
+                                    options=list(multi_select.keys()),
                                     value = 'Product Family', 
                                     id='radio-cat-input',
                                     inline=True

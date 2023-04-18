@@ -224,7 +224,7 @@ app.layout = html.Div(
                                     options=list(multi_select.keys()),
                                     value = 'Product Family', 
                                     id='radio-cat-input',
-                                    inline=True
+                                    labelStyle={'display':'inline-block'}
                                 ),
                             ],
                             width={'size': 4, 'offset': 0}
@@ -236,7 +236,9 @@ app.layout = html.Div(
                             [
                                 html.Label('Please select one of the following options:'),
                                 html.Br(),
-                                dcc.RadioItems(id='radio-cat-output', inline=True)
+                                dcc.RadioItems(
+                                    id='radio-cat-output', 
+                                    labelStyle={'display':'inline-block'})
                             ],
                             width={'size': 4, 'offset': 0}
                         )
@@ -260,7 +262,7 @@ app.layout = html.Div(
                                         dict(label = 'bigram', value = 'bigram'),
                                         dict(label = 'trigram', value = 'trigram')],
                                     value = 'token',
-                                    inline=True
+                                    labelStyle={'display':'inline-block'}
                                 )
                             ],
                             width={'size': 4, 'offset': 1}

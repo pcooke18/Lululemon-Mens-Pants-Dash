@@ -1,4 +1,4 @@
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);" src="https://cdn.dribbble.com/users/1364029/screenshots/15919680/media/023f6fca7b83f40ff61c1d61111c5818.gif" width="1000" height="650">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);" src="https://cdn.dribbble.com/users/1364029/screenshots/15919680/media/023f6fca7b83f40ff61c1d61111c5818.gif" width="1000" height="600">
 
 # Lululemon Men's Pants Dashboard
 
